@@ -1,0 +1,12 @@
+// script.js (Optional - for any interactive elements)
+
+// Example: Add a click event listener to the "Explore Courses" button
+const exploreButton = document.querySelector('.hero button');
+
+exploreButton.addEventListener('click', () => {
+  // Redirect to the courses page or perform other actions
+  alert("Explore Courses button clicked!"); // Placeholder action
+  // window.location.href = "courses.html"; // Example redirect
+});
+
+// Add more JavaScript as needed for other interactive features.
