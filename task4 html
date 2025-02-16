@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E-Learning</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="login-btn">Login/Signup</a>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to the Future of Learning</h1>
+            <p>Learn at your own pace, anytime, anywhere.</p>    
+            <button>Explore Courses</button>
+        </div>
+    </header>
+
+    <section class="featured-courses">
+        <h2>Featured Courses</h2>
+        <div class="course-grid">
+            <div class="course">
+                <img src="placeholder.jpg" alt="Course 1">
+                <h3>software engineer</h3>
+                <p>job role of software engineer.</p>
+                <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSezJb20jWPNEU-mNl9u3ZUpVcgF4p_W66SPk-hOhqdFMiePrQ/viewform?usp=header"class="btn">Enroll now</a></button>
+            </div>
+            <div class="course">
+                <img src="placeholder.jpg" alt="Course 2">
+                <h3>internship</h3>
+                <p>internship registertion.</p>
+                <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSdpC1CoGddnuTXVKSaOJ2rkqRDivoizq4ndmLVPJcaX2h4dYg/viewform?usp=header"class="btn">Enroll now</a></button>
+            </div>
+            <div class="course">
+                <img src="placeholder.jpg" alt="Course 3">
+                <h3>awareness program</h3>
+                <p>awareness of health diet and hygiene.</p>
+                <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSffW8ns3ar3XTolxs5SrS6BZCQGgt_Vna_t7f9p4FFN0ArRbg/viewform?usp=header"class="btn">Enroll now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E-Learning Platform</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
